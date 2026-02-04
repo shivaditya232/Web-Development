@@ -1,0 +1,40 @@
+li:hover{
+    background-color: yellow;
+}
+li:not(:hover){
+    background-color: gray;
+}
+
+#greeting p{
+    background-color: blue;
+    padding: 10px;
+    display: none;
+    
+}
+#greeting:hover p{
+    display: block;
+}
+
+h1::first-letter{
+    font-size: 2em;
+    font-style:italic;
+}
+p::first-line{
+    background-color: yellowgreen;
+}
+p::selection{
+    color: green;
+    background-color: darkgray
+}
+#fruit li::before{
+    content:"❤️";
+}
+#apple::after{
+    content: "🍎";
+}
+#orange::after{
+    content: "🍊";
+}
+#banana::after{
+    content: "🍌";
+}
