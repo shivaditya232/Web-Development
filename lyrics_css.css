@@ -1,0 +1,25 @@
+body{
+    background-image: url(images/images.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+}
+
+.para{
+    border:3px solid;
+    display:flow-root;
+    color:brown;
+
+
+}
+#img1{
+    float: left;
+    margin-right: 10px;
+}
+
+#img2{
+    float:right;
+    margin-left: 10px;
+}
