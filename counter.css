@@ -1,0 +1,23 @@
+#count{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica;
+
+}
+#container{
+    text-align: center;
+    
+}
+.button{
+    font-size: 3em;
+    padding: 30px;
+    color:lightblue;
+    background-color: blue;
+    cursor: pointer;
+    transition: background-color 0.5s;
+
+}
+.button:hover{
+    background-color: darkblue;
+}
