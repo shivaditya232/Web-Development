@@ -1,0 +1,37 @@
+body{
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+h1{
+    color: blue;
+}
+form{
+    background-color: bisque;
+    text-align: center;
+    margin: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+}
+#textbox{
+    text-align: center;
+    border: 2px solid;
+    padding: 10px 10px;
+    font-size: larger;
+
+}
+label{
+    font-weight: bold;
+}
+button{
+    background-color: red;
+    padding: 10px 10px;
+    width: 100px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: aqua;
+}
+button:hover{
+    background-color: darkred;
+}
